@@ -89,14 +89,14 @@
 @media screen and (max-width: 576px) {
     .nav-bar {
         margin: 0px 16px;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
+        margin: 0 16px;
     }
 
     .logo {
-        width: 63px;
-        height: 38px;
-        margin: 0;
+        width: 10%;
+        height: 50%;
     }
 
     .hidden {
@@ -112,17 +112,13 @@
         margin-left: 0;
         margin-right: 0;
     }
-
-    .banner-image {
-        /* margin: 0; */
-        width: auto;
-        height: auto;
+    .banner-img{
+        width: 100%;
     }
-
     .b-title {
+        margin-top: -28px;
         font-size: 24px;
     }
-
     .b-sub-title {
         margin: 0;
     }
