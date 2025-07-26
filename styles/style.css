@@ -116,7 +116,7 @@
     .banner-image {
         /* margin: 0; */
         width: auto;
-        height: 33px;
+        height: auto;
     }
 
     .b-title {
@@ -125,7 +125,6 @@
 
     .b-sub-title {
         margin: 0;
-        color: rgba(0, 0, 0, 0.5);
     }
 
 }
