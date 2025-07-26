@@ -116,6 +116,7 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 1.25rem;
+    margin-bottom: 210.13px;
 }
 .cart-button{
     background-color: rgba(233, 90, 8, 1);
@@ -129,6 +130,43 @@
     width: 100%;
     height: auto;
 }
+/* Flower & Plants Lover */
+.flower-plants-lover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg); /* Start at 0 degrees */
+    }
+    100% {
+        transform: rotate(360deg); /* Rotate 360 degrees */
+    }
+}
+.flower-store{
+    display: flex;
+}
+.t-image{
+    width: 286;
+    height: 286px;
+    transform: translateX(-60%) translateY(-100%);
+    animation: spin 4s linear infinite;
+    margin-left: -150px;
+    margin-top: -100px;
+}
+.ul-list{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+}
+.fp-lover-title{
+    font-size: 3.125rem;
+}
+/* latest deals */
+.ld-title{
+    font-size: 3.125rem;
+}
+
 /* Responsive */
 @media screen and (max-width: 576px) {
     .nav-bar {
@@ -178,5 +216,20 @@
     .cart-button {
         width: 100%;
     }
+    .flower-plants-lover{
+        flex-direction: column;
+        align-items: center;
+            margin-top: -150px;
+    }
+    .flower-store-image{
+        width: 100%;
+        height: auto;
+    }
+    .fp-lover-title{
+        font-size: 1.5rem;
+    }
+    .ul-list{
+    font-size: 0.875rem;
+}
 
 }
