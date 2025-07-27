@@ -166,7 +166,33 @@
 .ld-title{
     font-size: 3.125rem;
 }
-
+.ld-subtitle{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* Latest Deals */
+.latest-deals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.ld-details{
+    margin-bottom: 7.5rem;
+}
+.ld-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.75rem;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
 /* Responsive */
 @media screen and (max-width: 576px) {
     .nav-bar {
