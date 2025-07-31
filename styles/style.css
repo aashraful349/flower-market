@@ -6,7 +6,6 @@
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
-    /* Optional: includes padding and border in element's total width/height */
 }
 
 /* Fonts */
@@ -25,8 +24,8 @@
 
 /* shared styles */
 .p-margin {
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -41,6 +40,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1140px;
 }
 
 .nav-options {
@@ -77,21 +77,24 @@
     margin-top: 120px;
     justify-content: space-between;
     align-items: center;
+    max-width: 1140px;
 }
 
 .banner-image {
     /* margin: 0; */
     width: auto;
 }
-.banner-text{
-    margin-left: 16px;
-    margin-right: 16px;
+
+.banner-text {
+    width: 570px;
 }
+
 .b-title {
-    font-size: 65px;
+    font-size: 4rem;
 }
 
 .b-sub-title {
+    text-align: start;
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -104,11 +107,16 @@
     align-items: center;
     margin-top: 100px;
     text-align: center;
-    margin-left: 16px;
-    margin-right: 16px;
+    max-width: 1140px;
+
 }
 
+/* .sec-intro{
+    width: 1140px;
+} */
+
 .sec-intro-description {
+    text-align: center;
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 3rem;
@@ -157,17 +165,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1140px;
 }
 
 @keyframes spin {
     0% {
         transform: rotate(0deg);
-        /* Start at 0 degrees */
     }
 
     100% {
         transform: rotate(360deg);
-        /* Rotate 360 degrees */
     }
 }
 
@@ -211,6 +218,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    max-width: 1140px;
 
 }
 
@@ -317,7 +325,7 @@
 
 
 /* join section */
-.join-container{
+.join-container {
     background-image: url("../assets/news-letter-bg.png");
     filter: brightness(0.9);
     height: 533px;
@@ -334,74 +342,92 @@
     padding-left: 0px;
     padding-right: 0px;
 }
-.input-container{
+
+.input-container {
     display: flex;
     gap: 0;
 }
-.input-container button:hover{
+
+.input-container button:hover {
     cursor: pointer;
     background-color: rebeccapurple;
 }
-.join-container .input-container input{
+
+.join-container .input-container input {
     padding-left: 20px;
 }
-.join-container .join-title h3{
+
+.join-container .join-title h3 {
     font-size: 50px;
     font-weight: bold;
     color: white;
 }
-.join-container .join-title{
+
+.join-container .join-title {
     margin-bottom: 23px;
 }
-.input-container button{
+
+.input-container button {
     border: none;
     width: 11rem;
     font-weight: 600;
     color: white;
     background-color: rgba(233, 90, 8, 1);
 }
-.input-container input{
+
+.input-container input {
     border: none;
     width: 40rem;
     height: 50px;
 }
-footer{
+
+footer {
     display: flex;
     gap: 110px;
-    padding: 50px 160px;
+    margin-top: 50px;
     justify-content: center;
     color: rgba(0, 0, 0, 0.5);
+    max-width: 1140px;
 }
-.f-description-container{
+
+.f-description-container {
     max-width: 359px;
 }
-.f-description-container .f-logo{
+
+.f-description-container .f-logo {
     max-width: 135px;
     height: 82px;
 }
-.f-description p{
+
+.f-description p {
     font-size: 22px;
 }
-.f-logo img{
+
+.f-logo img {
     width: 100%;
     height: 100%;
 }
-.f-links{
+
+.f-links {
     list-style: none;
 }
-.f-links a{
+
+.f-links a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
 }
-.f-links li{
+
+.f-links li {
     list-style: none;
     margin-bottom: 26px;
 }
-.socials{
+
+.socials {
     display: flex;
     gap: 24px;
 }
-.socials .x{
+
+.socials .x {
     padding-top: 8px;
 }
 
@@ -420,6 +446,7 @@ footer{
     .logo-container {
         margin-left: 16px;
     }
+
     .logo {
         width: 50%;
         height: 50%;
@@ -437,6 +464,10 @@ footer{
     .p-margin {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .banner-text {
+        width: 90%;
     }
 
     .banner-img {
@@ -483,10 +514,11 @@ footer{
         margin-left: 30px;
     }
 
-    .latest-deals{
+    .latest-deals {
         margin-left: 16px;
         margin-right: 16px;
     }
+
     .ld-images {
         flex-direction: column;
         width: 100%;
@@ -520,28 +552,33 @@ footer{
     .ld-details {
         margin-bottom: 3.65rem;
     }
-   
-    .join-container{
+
+    .join-container {
         margin-top: 40px;
         height: 275px;
     }
-    .join-container .join-title h3{
+
+    .join-container .join-title h3 {
         font-size: 20px;
         font-weight: bold;
     }
-    .join-container .input-container input{
+
+    .join-container .input-container input {
         width: 218px;
     }
-    .join-container .input-container button{
+
+    .join-container .input-container button {
         width: 103px;
     }
-    footer{
+
+    footer {
         flex-direction: column;
         padding-left: 20px;
         padding-right: 20px;
         gap: 0px;
     }
-    .f-description-container{
+
+    .f-description-container {
         margin-bottom: 20px;
     }
 
