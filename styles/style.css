@@ -356,6 +356,7 @@
     width: 11rem;
     font-weight: 600;
     color: white;
+    background-color: rgba(233, 90, 8, 1);
 }
 .input-container input{
     border: none;
