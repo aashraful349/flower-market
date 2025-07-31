@@ -462,12 +462,12 @@ footer {
     }
 
     .p-margin {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     .banner-text {
-        width: 90%;
+        width: 100%;
     }
 
     .banner-img {
@@ -521,7 +521,9 @@ footer {
 
     .ld-images {
         flex-direction: column;
-        width: 100%;
+        max-width: 361px;
+        max-height: 581px;
+        margin-bottom: 40px;
     }
 
     .img1 {
@@ -535,7 +537,7 @@ footer {
     }
 
     .img3 {
-        width: 92%;
+        width: 100%;
         height: auto;
     }
 
