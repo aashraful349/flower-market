@@ -104,6 +104,8 @@
     align-items: center;
     margin-top: 100px;
     text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .sec-intro-description {
@@ -453,8 +455,6 @@ footer{
     .plants-container {
         grid-template-columns: repeat(2, 0.7fr);
         gap: 1.25rem;
-        margin-left: 16px;
-        margin-right: 16px;
     }
 
     .cart-button {
