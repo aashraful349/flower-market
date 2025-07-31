@@ -406,16 +406,18 @@ footer{
 /* Responsive */
 @media screen and (max-width: 576px) {
     .nav-bar {
-        margin: 0px 16px;
+        margin: 0px 26px;
         justify-content: space-between;
         align-items: center;
-        margin: 0 16px;
     }
 
-    /* .logo-container {
-        width: 15%;
-        height: 15%;
-    } */
+    .nav-options-container {
+        margin-right: 16px;
+    }
+
+    .logo-container {
+        margin-left: 16px;
+    }
     .logo {
         width: 50%;
         height: 50%;
